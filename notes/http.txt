@@ -1,0 +1,28 @@
+HTTP/2 302 
+date: Wed, 07 Oct 2026 01:16:46 GMT
+content-type: text/html; charset=utf-8
+content-length: 215
+server: gunicorn/19.9.0
+location: /get
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+HTTP/2 200 
+date: Wed, 07 Oct 2026 01:16:46 GMT
+content-type: application/json
+content-length: 255
+server: gunicorn/19.9.0
+access-control-allow-origin: *
+access-control-allow-credentials: true
+
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/8.5.0", 
+    "X-Amzn-Trace-Id": "Root=1-6ac59d7e-2a33b8a86e97190c51c194b8"
+  }, 
+  "origin": "203.145.56.149", 
+  "url": "https://httpbin.org/get"
+}

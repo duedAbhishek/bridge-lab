@@ -1,0 +1,7 @@
+#!/usr/bin/env python3 
+the above line tells the terminal to use python3. If I use the file from the terminal I have to user python3 to run that file, but in venv It's implicit
+when I activate source .venv/bin/activate.
+
+
+requirements.txt is the place where I can find most of the dependencies but in uv-project, the toml file contains the dependencies so I don't have to explitictly write them into requirements.txt
+

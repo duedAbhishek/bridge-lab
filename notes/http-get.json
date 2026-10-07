@@ -1,0 +1,13 @@
+{
+  "args": {
+    "topic": "linux"
+  }, 
+  "headers": {
+    "Accept": "*/*", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/8.5.0", 
+    "X-Amzn-Trace-Id": "Root=1-6ac596b7-63d377e3629535ae06c154d5"
+  }, 
+  "origin": "203.145.56.149", 
+  "url": "https://httpbin.org/get?topic=linux"
+}
